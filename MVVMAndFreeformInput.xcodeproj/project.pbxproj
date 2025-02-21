@@ -11,6 +11,7 @@
 		70BFD2C82D68DAD200165F85 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFD2C52D68DAD200165F85 /* MVVMAndFreeformInputApp.swift */; };
 		70BFD2C92D68DAD200165F85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BFD2C02D68DAD200165F85 /* Preview Assets.xcassets */; };
 		70BFD2CA2D68DAD200165F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BFD2C32D68DAD200165F85 /* Assets.xcassets */; };
+		70BFD2CD2D68DC8400165F85 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFD2CC2D68DC8400165F85 /* Power.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		70BFD2C32D68DAD200165F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70BFD2C42D68DAD200165F85 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		70BFD2C52D68DAD200165F85 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
+		70BFD2CC2D68DC8400165F85 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		70BFD2BF2D68DAD200165F85 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70BFD2CC2D68DC8400165F85 /* Power.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -66,7 +69,6 @@
 		70BFD2C22D68DAD200165F85 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				70BFD2CB2D68DAE200165F85 /* View */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -77,6 +79,8 @@
 				70BFD2C52D68DAD200165F85 /* MVVMAndFreeformInputApp.swift */,
 				70BFD2BF2D68DAD200165F85 /* Model */,
 				70BFD2C22D68DAD200165F85 /* ViewModel */,
+				70BFD2CB2D68DAE200165F85 /* View */,
+				70BFD2C12D68DAD200165F85 /* Preview Content */,
 				70BFD2C32D68DAD200165F85 /* Assets.xcassets */,
 			);
 			path = MVVMAndFreeformInput;
@@ -86,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				70BFD2C42D68DAD200165F85 /* PowerView.swift */,
-				70BFD2C12D68DAD200165F85 /* Preview Content */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BFD2C72D68DAD200165F85 /* PowerView.swift in Sources */,
+				70BFD2CD2D68DC8400165F85 /* Power.swift in Sources */,
 				70BFD2C82D68DAD200165F85 /* MVVMAndFreeformInputApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
