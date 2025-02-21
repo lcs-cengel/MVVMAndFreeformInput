@@ -12,7 +12,7 @@
 		70BFD2C92D68DAD200165F85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BFD2C02D68DAD200165F85 /* Preview Assets.xcassets */; };
 		70BFD2CA2D68DAD200165F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BFD2C32D68DAD200165F85 /* Assets.xcassets */; };
 		70BFD2CD2D68DC8400165F85 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFD2CC2D68DC8400165F85 /* Power.swift */; };
-		70BFD2CF2D68DD2600165F85 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFD2CE2D68DD2200165F85 /* Untitled.swift */; };
+		70BFD2CF2D68DD2600165F85 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BFD2CE2D68DD2200165F85 /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		70BFD2C42D68DAD200165F85 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		70BFD2C52D68DAD200165F85 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		70BFD2CC2D68DC8400165F85 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
-		70BFD2CE2D68DD2200165F85 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		70BFD2CE2D68DD2200165F85 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		70BFD2C22D68DAD200165F85 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				70BFD2CE2D68DD2200165F85 /* Untitled.swift */,
+				70BFD2CE2D68DD2200165F85 /* PowerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 			files = (
 				70BFD2C72D68DAD200165F85 /* PowerView.swift in Sources */,
 				70BFD2CD2D68DC8400165F85 /* Power.swift in Sources */,
-				70BFD2CF2D68DD2600165F85 /* Untitled.swift in Sources */,
+				70BFD2CF2D68DD2600165F85 /* PowerViewModel.swift in Sources */,
 				70BFD2C82D68DAD200165F85 /* MVVMAndFreeformInputApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

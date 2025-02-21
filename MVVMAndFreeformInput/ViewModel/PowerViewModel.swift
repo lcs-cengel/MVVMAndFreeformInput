@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+@Observable 
 class PowerViewModel {
     
     //MARK: Stored Properties
@@ -17,7 +17,7 @@ class PowerViewModel {
     
     // Holds and appropriate error message if there was a problem with input provided by the user
     
-    var recoverSuggestion: String = ""
+    var recoverySuggestion: String = ""
     
     // MARK: Computed properties
     // Holds the evaluated power, when the input provided is valid
@@ -27,13 +27,13 @@ class PowerViewModel {
         // be converted into a number, then check that the
         // value is more than 0
         guard let base = Double(providedBase) else {
-            recoverSuggestion = "Please provide a numeric value for the base of the power."
+            recoverySuggestion = "Please provide a numeric value for the base of the power."
             
             return nil
         }
         
         guard base > 0 else {
-            recoverSuggestion = "Please provide a positive value for the base of the power."
+            recoverySuggestion = "Please provide a positive value for the base of the power."
             
             return nil
         }
@@ -42,13 +42,13 @@ class PowerViewModel {
         // converted into an integer, and that the value is
         // more than or equal to 1
         guard let exponent = Int(providedExponent), exponent >= 1 else {
-            recoverSuggestion = "Please provide an integer value of 1 or greater for the exponent."
+            recoverySuggestion = "Please provide an integer value of 1 or greater for the exponent."
             
             return nil
         }
         
         // Now that we know the base and exponent have valid values, return the evaluated power
-        recoverSuggestion = "" // No error message
+        recoverySuggestion = "" // No error message
         return Power(base: base, exponent: exponent)
         
     }
@@ -65,7 +65,7 @@ class PowerViewModel {
     ) {
         self.providedBase = providedBase
         self.providedExponent = providedExponent
-        self.recoverSuggestion = recoverSuggestion
+        self.recoverySuggestion = recoverSuggestion
     }
     
 }
