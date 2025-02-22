@@ -8,12 +8,12 @@
 import Foundation
 
 //Model
-struct Power {
+struct Power:  Identifiable {
     
     //MARK: Stored Properties
     
     
-   
+   let id = UUID()
     
     
     //The base of a power can hold any number
