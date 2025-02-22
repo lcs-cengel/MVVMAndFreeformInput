@@ -10,6 +10,8 @@ import Foundation
 class PowerViewModel {
     
     //MARK: Stored Properties
+    // Hold the list of previously computed and evaluated properties
+    var resultHistory: [Power] = []
     
     // Holds whatever value the user types
     var providedBase: String
@@ -41,7 +43,7 @@ class PowerViewModel {
         // Now check that the string in providedExponent can be
         // converted into an integer, and that the value is
         // more than or equal to 1
-        guard let exponent = Int(providedExponent), exponent >= 1 else {
+        guard let exponent = Int(providedExponent), exponent >= 0 else {
             recoverySuggestion = "Please provide an integer value of 1 or greater for the exponent."
             
             return nil

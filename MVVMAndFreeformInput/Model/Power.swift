@@ -7,9 +7,14 @@
 
 import Foundation
 
+//Model
 struct Power {
     
     //MARK: Stored Properties
+    
+    
+   
+    
     
     //The base of a power can hold any number
     var base: Double
@@ -25,10 +30,14 @@ struct Power {
         
         // Repeatedly multiply the base by itself
         // as many more times as needed
-        for _ in 1...exponent {
-            solution *= base
-        }
         
+        if exponent == 0 {
+            return solution
+        } else {
+            for _ in 1...exponent {
+                solution *= base
+            }
+        }
         // Return the solution
         return solution
         
